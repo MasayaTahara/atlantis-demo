@@ -1,6 +1,8 @@
 # atlantis-demo
 
-## Preparation
+## Testing locally
+
+https://www.runatlantis.io/guide/testing-locally.html
 
 1. Start ngrok
     ```sh
@@ -46,3 +48,5 @@
         --gh-webhook-secret="$SECRET" \
         --repo-allowlist="$REPO_ALLOWLIST"
     ```
+
+1. Create new resource and pull request, then check comments
