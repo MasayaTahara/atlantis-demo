@@ -1,11 +1,11 @@
-module "network" {
-  source = "./modules/network"
+module "tfstate_manager_module" {
+  source = "./modules/tfstate-manager"
   env    = var.env
   app    = "atlantis-demo"
 }
 
-module "tfstate_manager_module" {
-  source = "./modules/tfstate-manager"
+module "network" {
+  source = "./modules/network"
   env    = var.env
   app    = "atlantis-demo"
 }
